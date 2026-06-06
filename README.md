@@ -38,8 +38,8 @@ Contiene la configuración completa del Dashboard IoT desarrollado en ThingsBoar
 
 ## Autor
 
-Efrén Molina
-Edwin Ramirez
+- Efrén Molina
+- Edwin Ramirez
 
 Maestría en Transformación Digital e Industria 4.0
 
