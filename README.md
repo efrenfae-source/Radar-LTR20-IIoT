@@ -1,2 +1,38 @@
 # Radar-LTR20-IIoT
-Sistema IoT para Monitoreo de Condición y Alertas Predictivas del Radar LTR20 utilizando Node-RED, MQTT y ThingsBoard Cloud.
+# Sistema IoT para Monitoreo de Condición y Alertas Predictivas del Radar LTR20
+
+## Descripción
+
+Este proyecto implementa una Prueba de Concepto (Proof of Concept - PoC) basada en tecnologías de Internet Industrial de las Cosas (IIoT) para el monitoreo de condición de un radar LTR20.
+
+La solución integra Node-RED como simulador de sensores, Eclipse Mosquitto como broker MQTT y ThingsBoard Cloud como plataforma IoT para la visualización de telemetrías, gestión de alarmas y monitoreo en tiempo real.
+
+## Arquitectura
+
+Node-RED → Mosquitto MQTT Broker → ThingsBoard Cloud → Dashboard IoT → Alertas Predictivas
+
+## Variables Monitoreadas
+
+- Temperatura Espina
+- Temperatura Amplificador PA
+- Humedad Relativa
+- Relación de Onda Estacionaria (ROE)
+- Potencia de Transmisión (TX)
+- Voltaje UPS
+- Potencia Amplificador (PA)
+
+## Tecnologías Utilizadas
+
+- Node-RED v4.1.5
+- Eclipse Mosquitto MQTT Broker v2.1.2
+- ThingsBoard Cloud v4.3.1.2 PAAS Free
+- MQTT
+- JSON
+
+## Autor
+
+Efrén Molina
+
+Maestría en Transformación Digital e Industria 4.0
+
+2026
