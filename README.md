@@ -28,10 +28,18 @@ Node-RED → Mosquitto MQTT Broker → ThingsBoard Cloud → Dashboard IoT → A
 - ThingsBoard Cloud v4.3.1.2 PAAS Free
 - MQTT
 - JSON
+## Archivos del Proyecto
+
+### flujo_radar_ltr20.json
+Contiene la lógica de simulación de sensores y transmisión MQTT implementada en Node-RED.
+
+### dashboard_radar_ltr20.json
+Contiene la configuración completa del Dashboard IoT desarrollado en ThingsBoard Cloud, incluyendo widgets, alarmas y visualizaciones.
 
 ## Autor
 
 Efrén Molina
+Edwin Ramirez
 
 Maestría en Transformación Digital e Industria 4.0
 
